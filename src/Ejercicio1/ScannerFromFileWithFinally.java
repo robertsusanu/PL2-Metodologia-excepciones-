@@ -1,8 +1,3 @@
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 /*
 public class ScannerFromFileWithFinally {
      public static void main(String[] args) {
