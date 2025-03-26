@@ -23,14 +23,12 @@ public class MethodCallStack {
     }
     public static void methodC() throws Exception {
         System.out.println("Enter methodC()");
-        methodD(0);
+        methodD();
         System.out.println("Exit methodC()");
     }
-    public static void methodD(int n) throws Exception {
+    public static void methodD() throws Exception {
         System.out.println("Enter methodD()");
-        if(n == 0) {
-            System.out.println(1 / 0);
-        }
+        System.out.println(1 / 0);
         System.out.println("Exit methodD()");
     }
 }

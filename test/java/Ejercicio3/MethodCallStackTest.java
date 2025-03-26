@@ -28,7 +28,6 @@ class MethodCallStackTest {
 
     @Test
     void methodD() {
-        assertDoesNotThrow(() -> MethodCallStack.methodD(1));
-        assertThrows(ArithmeticException.class, () -> MethodCallStack.methodD(0));
+        assertThrows(ArithmeticException.class, () -> MethodCallStack.methodD());
     }
 }
